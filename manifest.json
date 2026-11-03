@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Rubii 会话轮数",
+  "version": "0.2.0",
+  "description": "Rubii 历史会话轮数、认识天数与本地指令管理，支持世界书 JSON 导入。",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_title": "打开 Rubii 轮数统计"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "minimum_chrome_version": "111"
+}
